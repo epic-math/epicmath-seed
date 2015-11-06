@@ -25,11 +25,13 @@
 </head>
 
 <body class="home">
-  <header id="header">
+
+<header id="header">
   <div id="head" class="parallax" parallax-speed="2">
     <h1 id="logo" class="text-center">
+      <span class="title">Epic Math</span>
       <img class="img-circle" src="khong.jpg" alt="">
-      <span class="title">K Hong</span>
+      <span class="name">K Hong</span>
       <span class="tagline">A math lover<br>
         <a href="">epicmath2015@aol.com</a></span>
     </h1>
@@ -45,20 +47,20 @@
       <div class="navbar-collapse collapse">
         
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="#/home">Home</a></li>
+          <li><a href="#/about">About</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="sidebar-left.html">Left Sidebar</a></li>
-              <li><a href="sidebar-right.html">Right Sidebar</a></li>
-              <li><a href="single.html">Blog Post</a></li>
+              <li><a href="#/view1">View 1</a></li>
+              <li><a href="#/view2">View 2</a></li>
+              <li><a href="#/view3">View 3</a></li>
             </ul>
           </li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="http://www.bogotobogo.com">Blog</a></li>
         </ul>
       
-      </div><!--/.nav-collapse -->      
+      </div>
     </div>  
   </nav>
 </header>
@@ -73,6 +75,19 @@
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+ 
+<main id="main">
+
+  <div class="container">
+    
+    <div class="row section topspace">
+      <div class="col-md-12">
+        <p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a href="about.html">measure</a> yourself by the people who measure themselves by you. it only took me <a href="sidebar-right.html">six days</a>. </p>
+      </div>
+    </div> 
+  </div>
+</main>
+ 
 
   <div ng-view></div>
 
@@ -91,5 +106,83 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Form widget</h3>
+        <div class="widget-body">
+          <p>Epic Math<br>
+            <a href="mailto:#">contact@epicmath.com</a><br>
+            <br>
+            Golden Gate Ave, San Francisco, CA 94115
+          </p>  
+        </div>
+      </div>
+
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Follow me</h3>
+        <div class="widget-body">
+          <p class="follow-me-icons">
+            <a href=""><i class="fa fa-twitter fa-2"></i></a>
+            <a href=""><i class="fa fa-dribbble fa-2"></i></a>
+            <a href=""><i class="fa fa-github fa-2"></i></a>
+            <a href=""><i class="fa fa-facebook fa-2"></i></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Text widget</h3>
+        <div class="widget-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Form widget</h3>
+        <div class="widget-body">
+          <p>Epic Math<br>
+            <a href="mailto:#">contact@epicmath.com</a><br>
+            <br>
+            Golden Gate Ave, San Francisco, CA 94115
+          </p>  
+        </div>
+      </div>
+
+    </div> 
+  </div>
+</footer>
+
+<footer id="underfooter">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-6 widget">
+        <div class="widget-body">
+          <p>Golden Gate Ave, San Francisco, CA 94115 </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 widget">
+        <div class="widget-body">
+          <p class="text-right">
+            Copyright &copy; 2015, EpicMath<br> 
+            Design: <a href="http://www.epicmath.com" rel="designer">Web Master</a> </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+ 
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="js/template.js"></script>
+
 </body>
 </html>
